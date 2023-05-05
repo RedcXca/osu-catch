@@ -1,2 +1,0 @@
-# osucatch
-osu!catch Fangame
