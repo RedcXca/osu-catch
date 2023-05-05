@@ -55,7 +55,7 @@ public class Main extends JFrame implements ActionListener {
 		setContentPane(c);
 
 		// name of the buttons
-		b1 = new JButton("Easy - Zen Zen Zense");
+		b1 = new JButton("Easy - Zenzenzense");
 		b2 = new JButton("Normal - Yoake to Hotaru");
 		b3 = new JButton("Hard - Asu no Yozora Shoukaihan");
 		b4 = new JButton("Challenge - Hibana");
@@ -99,7 +99,7 @@ public class Main extends JFrame implements ActionListener {
 	// post: prints buttons to the screen
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == b1) {
-			new Game("Zen Zen Zense");
+			new Game("Zenzenzense");
 		} else if (e.getSource() == b2) {
 			new Game("Yoake to Hotaru");
 		} else if (e.getSource() == b3) {

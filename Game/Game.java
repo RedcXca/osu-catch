@@ -112,7 +112,7 @@ public class Game extends JFrame implements KeyListener {
 	// previous circle
 	public void generateCircles(String song) {
 		double distance;
-		if (song.equals("Zen Zen Zense")) {
+		if (song.equals("Zenzenzense")) {
 			notes = 100;
 			verticalDistance = 39.7;
 			horizontalDistance = 400;
